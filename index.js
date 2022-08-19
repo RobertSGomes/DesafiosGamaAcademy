@@ -13,15 +13,10 @@ function desafio4() {
     const param = prompt("Digite um parâmetro")
 
     for (let i = param; i > 0; i--) {
-        var array_asteristicos = [],
-            asteristicos = ""
+        var asteristicos = ""
 
         for (let j = 0; j < i; j++) {
-            array_asteristicos.push("*")
-        }
-
-        for (let j = 0; j < i; j++) {
-            asteristicos += array_asteristicos[j]
+            asteristicos += "*"
         }
 
         console.log(asteristicos + "\n")
